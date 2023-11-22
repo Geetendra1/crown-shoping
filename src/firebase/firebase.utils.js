@@ -5,7 +5,6 @@ import 'firebase/firestore';
 import 'firebase/auth'
 
 const config = {
-    
         apiKey: "AIzaSyCNT9-u3SBF0iBLtzenFyZ9-ks4tE8Hsos",
         authDomain: "crowndb-c302f.firebaseapp.com",
         databaseURL: "https://crowndb-c302f.firebaseio.com",
@@ -15,6 +14,7 @@ const config = {
         appId: "1:692537111849:web:b96fb007153e803c1f3338",
         measurementId: "G-CLEB9KKNFX"
     }
+    
     firebase.initializeApp(config);
       
       export const createUserProfileDocument = async (userAuth, additionalData) => {
